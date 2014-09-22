@@ -1,0 +1,43 @@
+body {
+	
+	text-align: center;
+	font-family: helvetica;
+	margin: 0 auto;
+	
+}
+
+
+ul {background-color: rgba(231, 76, 60,1.0);
+	padding: 20px;
+	
+}
+li{
+	display: inline;
+	padding: 0 15px 0 15px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	font-size: 25px;
+}
+
+img {
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+}
+button{
+	background: rgba(46, 204, 113,1);
+	padding: 5px 20px 5px 20px;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
+	border: 2px solid black;
+
+}
+table{
+position: relative;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
