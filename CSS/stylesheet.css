@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	font-family: helvetica;
+	font-family: 'Bree Serif', serif;
 	margin: 0 auto;
 	}
 
@@ -43,7 +43,7 @@ button{
 	color: white;
 	font-size: 20px;
 	font-family: 'Gloria Hallelujah', cursive;
-	border: 2px solid black;
+	border: 1px solid black;
 
 }
 table{
@@ -60,4 +60,11 @@ td {
 
 #hello {
 	font-size: 50px;
+}
+
+#Sonet{
+	height: 40px;
+	width: 40px;
+	float: right;
+	padding: 30px 10px 30px 10px;
 }
