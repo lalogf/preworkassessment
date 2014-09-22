@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script src =“doc.js”></script>
+<script language="javascript" type="text/javascript" src="./javascript/javascript.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <title>Free Bay Area Tours</title>
 </head>
 
@@ -15,7 +16,11 @@ Free Bay Area Tours
 
 <h1>Get to know the bay like a local.</h1>
 
-<button>Book Now</button>
+<button id="hello" onclick="javascript:changeText()">Hello!</button>
+
+<h1 id="greet"></h1>
+
+<h2>Click below to learn more about our tour options.</h2>
 
 <div id="tours">
 <table>
@@ -31,18 +36,18 @@ Free Bay Area Tours
 		</td>
 	</tr>
 	<tr>
-		<td>East Bay </td>
-		<td>South Bay</td>
-		<td>City</td>
+		<td><button>East Bay</button></td>
+		<td><button>South Bay</button></td>
+		<td><button>City</button></td>
 	</tr>
 </table>
 
 <ul id="navbar">
-<li> About Us </li>
-<li> Contact </li>
-<li> Gallery </li>
-<li> Facebook </li>
-<li> Twitter </li>
+	<li> About Us </li>
+	<li> Contact </li>
+	<li> Gallery </li>
+	<li> Facebook </li>
+	<li> Twitter </li>
 </ul>
 
 
